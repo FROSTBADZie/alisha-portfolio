@@ -42,7 +42,7 @@ export default function Home() {
           ALISHA<span className="text-cyan-400">.</span>
         </div>
 
-        <div className="hidden items-center gap-8 text-sm text-zinc-400 md:flex">
+        <div className="flex items-center gap-4 text-xs text-zinc-400 sm:gap-8 sm:text-sm">
           {["Work", "Services", "About", "Contact"].map((item) => (
             <a
               key={item}
@@ -944,7 +944,7 @@ export default function Home() {
 
               {/* CHANGE THESE LINKS LATER */}
               <a
-                href="https://github.com/AsherHere"
+                href="https://github.com/FROSTBADZie"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-full border border-white/10 bg-white/[0.03] px-6 py-3.5 text-sm text-zinc-300 transition-all duration-300 hover:border-white/20 hover:bg-white/[0.06] hover:text-white"
